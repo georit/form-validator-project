@@ -4,7 +4,8 @@
   --failure-color: #e74c3c;
   --body-background-color: #f9fafb;
   --container-background-color: #ffffff;
-  --button-background-color: #3498db;
+  --button-background-color: #a3d2ca;
+  --button-ready-background-color: #056676;
 }
 
 /* ========== General ========== */
@@ -120,7 +121,7 @@ h2 {
   width: 100%;
 }
 
-.form button:hover {
-  filter: brightness(115%);
-  -webkit-filter: brightness(115%);
+.form button.ready {
+  background-color: var(--button-ready-background-color);
+  border: 2px solid var(--button-ready-background-color);
 }
