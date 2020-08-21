@@ -125,3 +125,31 @@ h2 {
   background-color: var(--button-ready-background-color);
   border: 2px solid var(--button-ready-background-color);
 }
+
+/* ========== Media Queries ========== */
+/* Media Query: Large Phones */
+@media only screen and (max-width: 480px) {
+  .container {
+    width: 90%;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+}
+
+/* Media Query: Small Phones */
+@media only screen and (max-width: 321px) {
+  .container {
+    width: 100vw;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  .form {
+    padding: 20px 30px;
+    height: 100vh;
+  }
+}
